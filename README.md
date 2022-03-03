@@ -17,16 +17,17 @@ Step5: After Running the Backend in Eclipse, Run the index.html in Vscode.
 
 Running of the app
 Step 1:Login Page
-A. Login  ![image](https://user-images.githubusercontent.com/54466249/156538162-98b61bbb-0462-469a-913a-92f23bc98611.png)
+
+A. Login ![image](https://user-images.githubusercontent.com/54466249/156540581-3cd49378-a005-4d40-83f4-c76301e73487.png)
   If already Login we can login directly, If we not login  then we go to "want to signup" it will redirect to signup page.
    
 B. Forgot password ![image](https://user-images.githubusercontent.com/54466249/156538937-3f2a5b43-318e-4699-b9fe-49e2aff2f7c0.png)
   
 
 Step 2:Signup Page
+
 Signup ![image](https://user-images.githubusercontent.com/54466249/156540260-75857eba-644f-411c-a4ac-3ad66bbd8903.png)
 After Signup, The page will be Redirect to Login page.
-
 
 Step 3:Contact Page
 After Login, The Contact Page will redirected and Here we can save Name, Mail, Moblienumber in a tablur Format
