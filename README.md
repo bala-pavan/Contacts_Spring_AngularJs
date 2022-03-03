@@ -19,11 +19,12 @@ Running of the app
 Step 1:Login Page
 A. Login  ![image](https://user-images.githubusercontent.com/54466249/156538162-98b61bbb-0462-469a-913a-92f23bc98611.png)
   If already Login we can login directly, If we not login  then we go to "want to signup" it will redirect to signup page.
+   
 B. Forgot password ![image](https://user-images.githubusercontent.com/54466249/156538937-3f2a5b43-318e-4699-b9fe-49e2aff2f7c0.png)
   
 
 Step 2:Signup Page
-Signup ![image](https://user-images.githubusercontent.com/54466249/156539512-e76a3977-d311-42fd-a73f-834b35f28627.png) 
+Signup ![image](https://user-images.githubusercontent.com/54466249/156540260-75857eba-644f-411c-a4ac-3ad66bbd8903.png)
 After Signup, The page will be Redirect to Login page.
 
 
