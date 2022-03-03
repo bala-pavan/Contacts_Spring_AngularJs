@@ -1,0 +1,44 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <link rel="stylesheet" href="./contacts.css">
+  <script src="./contacts.js"></script>
+</head>
+
+<body>
+
+  <div class="log-form" ng-app="contacts" ng-controller="myCtrl">
+    <button class="forgot sbtn" ng-click="logout()">LogOut</button>
+    <h2>Add Contact</h2>
+    <form>
+      <input type="text" title="name" placeholder="Name*" ng-model="name" />
+      <input type="text" title="mail" placeholder="Mail*" ng-model="mail" />
+      <input type="text" title="number" placeholder="Mobile Number*" ng-model="number" />
+      <button type="submit" class="btn" ng-click="saveContact()">Save</button>
+      <button type="button" class="btn" ng-click="clearContact()">Clear</button>
+      <!-- <a class="forgot" ng-click="login1()" >Want to Login?</a> -->
+    </form>
+    <hr>
+    <div class = "wrapper">
+      <h2>My Contacts</h2>
+
+      <table >
+        <tr>
+          <th>Name</th>
+          <th>email</th>
+          <th>mobileNumber</th>
+        </tr>
+        <tr ng-repeat="x in contacts">
+          <td>{{ x.name }}</td>
+          <td>{{ x.email }}</td>
+          <td>{{ x.mobileNumber }}</td>
+        </tr>
+      </table>
+    </div>
+
+
+  </div>
+</body>
+
+</html>

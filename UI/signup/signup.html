@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
+  <link rel="stylesheet" href="./signup.css">
+  <script src="./signup.js"></script>
+  </head>
+<body>
+<div class="log-form" ng-app="signup" ng-controller="myCtrl" >
+    <h2>signup to your account</h2>
+    <form>
+      <input type="text" title="mail" placeholder="Mail" ng-model = "mail" />
+      <input type="text" title="number" placeholder="Mobile Number" ng-model = "number"/>
+      <input type="password" title="password" placeholder="password" ng-model = "password"/>
+      <button type="submit" class="btn" ng-click="submitSignUp()" >SignUp</button>
+      <a class="forgot context-menu" ng-click="login1()" >Want to Login?</a>
+    </form>
+  </div><!--end log form -->
+</body>
+  </html>
